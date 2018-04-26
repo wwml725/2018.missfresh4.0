@@ -1,0 +1,52 @@
+[
+  {
+    "uid": 1,
+    "avatar": "http://www.shangliushuai.cn/images/Ryan.jpg",
+    "username": "ryan",
+    "phone": "17601017600",
+    "password": "17601017600",
+    "isVIP": true,
+    "city": "北京",
+    "address": "昌平区回龙观东大街3号"
+  },
+  {
+    "uid": 2,
+    "avatar": "http://www.shangliushuai.cn/images/Ryan.jpg",
+    "username": "123",
+    "phone": "12345678910",
+    "password": "12345678910",
+    "isVIP": false,
+    "city": "北京",
+    "address": "昌平区回龙观东大街3号"
+  },
+  {
+    "uid": 3,
+    "avatar": "http://www.shangliushuai.cn/images/Ryan.jpg",
+    "username": "111",
+    "phone": "11111111111",
+    "password": "11111111111",
+    "isVIP": false,
+    "city": "北京",
+    "address": "昌平区回龙观东大街3号"
+  },
+  {
+    "uid": 4,
+    "avatar": "http://www.shangliushuai.cn/images/Ryan.jpg",
+    "username": "222",
+    "phone": "22222222222",
+    "password": "22222222222",
+    "isVIP": false,
+    "city": "北京",
+    "address": "昌平区回龙观东大街3号"
+  },
+  {
+    "uid": 5,
+    "avatar": "http://www.shangliushuai.cn/images/Ryan.jpg",
+    "username": "test",
+    "phone": "00000000000",
+    "password": "test",
+    "isVIP": false,
+    "city": "北京",
+    "address": "昌平区回龙观东大街3号"
+  }
+]

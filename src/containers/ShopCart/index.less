@@ -1,0 +1,375 @@
+.shopCart-page-wrap{
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(204, 203, 201, 0.8);
+  .shopCart-header{
+    width: 100%;
+    height: 30px;
+    background-color: peachpuff;
+    position: fixed;
+    z-index: 111;
+    a{
+      text-decoration: none;
+      color: #6c8070;
+      display: block;
+      height: 30px;
+      padding:5px;
+      span{
+        float: left;
+        font-size: 12px;
+        background-color: palevioletred;
+        color: white;
+        border-radius: 5px;
+        padding: 2px;
+        margin-right: 5px;
+      }
+      p{
+        font-size: 14px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+      }
+    }
+  }
+  .shopCart-content-wrap{
+    .shopCart-content{
+      width: 100%;
+      position: absolute;
+      top: 30px;
+      left: 0;
+      bottom: 50px;
+      overflow-y: scroll;
+      &::-webkit-scrollbar {display:none}
+      .address{
+       margin-bottom: 10px;
+        height: 25px;
+        line-height: 25px;
+        background-color: #fff;
+        text-align: center;
+        font-size: 15px;
+      }
+      .goods-list{
+
+        .top{
+          background-color: #ffffff;
+          font-weight: normal;
+          overflow: hidden;
+          height: 30px;
+          line-height: 30px;
+          font-size: 14px;
+          color: #6c8070;
+          padding: 5px 10px;
+          border-bottom: 1px solid #cccc;
+          .left{
+            float: left;
+            display: flex;
+            align-items: center;
+            .selected-all{
+              display: inline-block;
+              width: 20px;
+              height: 20px;
+              border: 1px solid #ccc;
+              border-radius: 50%;
+              margin-right: 5px;
+              &.active{
+                background: url(../../image/quanxuan.png)no-repeat;
+                background-size: 100% 100%;
+              }
+            }
+
+          }
+          .right{
+            color: red;
+            float: right;
+            font-size: 10px;
+          }
+
+
+        }
+        .main{
+          background-color: #ffffff;
+          li{
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border-bottom: 1px solid #c5c6cc;
+            padding: 25px 5px;
+            .selected-one{
+              display: inline-block;
+              width: 20px;
+              height: 20px;
+              border: 1px solid #ccc;
+              border-radius: 50%;
+              margin-right: 5px;
+              &.active{
+                background: url(../../image/quanxuan.png)no-repeat;
+                background-size: 100% 100%;
+              }
+            }
+
+
+            img{
+              width: 70px;
+              height: 70px;
+            }
+            .goods-info{
+
+              h4{
+                font-size: 14px;
+                color: black;
+                font-weight: normal;
+              }
+              .goods-price{
+                .left{
+                  float: left;
+                  font-size: 14px;
+                  color: #6c8070;
+                  i{
+                    font-style: normal;
+                    text-decoration: line-through;
+                    color: #c5c6cc;
+                    font-size: 12px;
+                  }
+                  span{
+                    color: palevioletred;
+                  }
+                }
+                .right{
+                  float: right;
+                  button{
+                    outline: none;
+                    width: 20px;
+                    line-height: 20px;
+                    height: 20px;
+                    text-align: center;
+                    border-radius: 50%;
+                    background-color: #ffffff;
+                    border: 1px solid #cccc;
+                  }
+                  span{
+                    margin: 0 5px;
+                  }
+                }
+              }
+
+
+            }
+
+          }
+        }
+        .bottom{
+          width: 100%;
+
+          margin-top: 10px;
+          .priceInfo{
+            background-color: #ffffff;
+            box-sizing: border-box;
+            padding: 15px 10px;
+            width: 100%;
+            border-bottom: 1px solid #cccccc;
+            font-size: 14px;
+            display: flex;
+            justify-content: space-between;
+            .priceInfo-item{
+              display: flex;
+              flex: 1;
+              justify-content: space-between;
+            }
+
+            &.last{
+              text-align: right;
+            }
+          }
+          .vip{
+            background-color: #ffffff;
+            margin-top: 10px;
+            width: 100%;
+            font-size: 12px;
+            .huiyuan{
+              text-align: center;
+              color: black;
+              border-bottom: 1px solid #cccccc;
+              padding: 10px;
+              span{
+                color: red;
+              }
+
+            }
+            .youhui{
+              .youhui-item{
+                list-style: none;
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                box-sizing: border-box;
+                padding: 10px;
+                &.line{
+                  width: 100%;
+                  height: 0;
+                  border-top: 1px solid #cccccc;
+                }
+                & .left{
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  img{
+                    width: 30px;
+                    height: 30px;
+                    margin-right: 10px;
+                  }
+
+                }
+                & .right{
+                  display: flex;
+                  justify-content: flex-end;
+                  align-items: center;
+                  span{
+                    display: inline-block;
+                    border: 1px solid #cccccc;
+                    width: 20px;
+                    height: 20px;
+                    border-radius: 50%;
+                    &.active{
+                      background: url("../../image/quanxuan.png");
+                      background-size: 100% 100%;
+                    }
+                  }
+                }
+                &.photo{
+                  height: 50px;
+                  width: 100%;
+                  background: url("../../image/yueka.png");
+                  background-size: 100% 100%;
+                }
+
+              }
+
+            }
+            .clearCart{
+              margin-top: 20px;
+              text-align: center;
+              color: #fff;
+              height: 50px;
+              font-size: 20px;
+              line-height: 50px;
+              background: deeppink;
+              margin-bottom: 100px;
+            }
+
+
+          }
+
+        }
+
+
+      }
+
+
+    }
+
+  }
+  .noShopping{
+    position: fixed;
+    top: 0px;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    z-index: 111;
+    background: #ffffff;
+    .header{
+      font-weight: bold;
+      text-align: center;
+      padding: 10px;
+      border-bottom: 1px solid #cccccc;
+      margin-bottom: 20px;
+
+    }
+    .noShoppingContent{
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      i{
+        color: #cccccc;
+        font-size: 120px;
+      }
+      p{
+        padding: 15px;
+      }
+      .noShoppingLink{
+        a{
+          color: deeppink;
+        }
+      }
+    }
+  }
+  .shopCart-footer{
+    width: 100%;
+    background-color: #ffffff;
+    position: fixed;
+    left: 0;
+    bottom: 50px;
+    height: 55px;
+    border-top: 1px solid #c5c6cc;
+    padding: 10px ;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    .left{
+      float: left;
+      display: flex;
+      align-items: center;
+      .selected-all{
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        border: 1px solid #ccc;
+        border-radius: 50%;
+        margin-right: 10px;
+        &.active{
+          background: url(../../image/quanxuan.png)no-repeat;
+          background-size: 100% 100%;
+        }
+
+      }
+
+      .counted{
+        font-size: 15px;
+        color: black;
+        margin-left: 5px;
+        p{
+          span{
+            color: palevioletred;
+          }
+        }
+        b{
+          font-weight: normal;
+          font-size: 10px;
+          color: #c5c6cc;
+        }
+      }
+
+
+    }
+    .right{
+      position: absolute;
+      right: 0;
+      top: 0;
+      height: 45px;
+      line-height: 45px;
+      padding: 0 25px;
+      background-color: palevioletred;
+     a{
+        color: #fff;
+      }
+    }
+
+  }
+
+}

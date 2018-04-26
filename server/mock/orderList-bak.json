@@ -1,0 +1,58 @@
+[
+  {
+    "uid": 1,
+    "phone": "17601017600",
+    "isVIP": true,
+    "address": "昌平区回龙观东大街3号",
+    "orders": [
+      {
+        "oid": 1,
+        "date": "20171211",
+        "state": "paid",
+        "totalPrice": 63.6,
+        "discount": 4,
+        "list": [
+          {
+            "gid": 1,
+            "goodsName": "红果肉里藏有无数甜蜜炸弹",
+            "goodsIcon": "https://image.missfresh.cn/8ceb3ee9990e46f891ecb6dd478db2d5.jpg?iopcmd=thumbnail&type=4&width=200",
+            "price": 15.9,
+            "count": 4
+          }
+        ]
+      },
+      {
+        "oid": 2,
+        "date": "20171212",
+        "state": "unpaid",
+        "totalPrice": 44.5,
+        "discount": 5,
+        "list": [
+          {
+            "gid": 2,
+            "goodsName": "来自蜜柚之乡的香甜问候",
+            "goodsIcon": "https://image.missfresh.cn/7ee27c7707364e289deecb68520b6852.jpg?iopcmd=thumbnail&type=4&width=200",
+            "price": 8.9,
+            "count": 5
+          }
+        ]
+      },
+      {
+        "oid": 3,
+        "date": "20171212",
+        "state": "cancelled",
+        "totalPrice": 65.4,
+        "discount": 6,
+        "list": [
+          {
+            "gid": 3,
+            "goodsName": "一手能掌握的红肉心",
+            "goodsIcon": "https://image.missfresh.cn/716f805a085147aa86565f0f83a3cf7c.jpg?iopcmd=thumbnail&type=4&width=200",
+            "price": 10.9,
+            "count": 6
+          }
+        ]
+      }
+    ]
+  }
+]
